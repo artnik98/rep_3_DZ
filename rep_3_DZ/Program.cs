@@ -1,8 +1,6 @@
-﻿using System;
-
-class Program
-{ //Домашняя работа, Задание 1
-    static void Main()
+﻿ //Домашняя работа, Задание 1
+    task3();
+    void task1()
     {
         double operand1 = 0;
         double operand2 = 0;
@@ -42,9 +40,9 @@ class Program
     }
 
 
-    //Домашняя работа, задание 2
-    static void Main()
-    {
+//Домашняя работа, задание 2
+void task2()
+{
         Console.WriteLine("Введите число от 0 до 100:");
         int number;
         if (int.TryParse(Console.ReadLine(), out number))
@@ -81,9 +79,9 @@ class Program
         Console.ReadLine();
     }
 
-    //Домашняя работа, задание 3
-    static void Main()
-    {
+//Домашняя работа, задание 3
+void task3()
+{
         Dictionary<string, string> weatherDictionary = new Dictionary<string, string>
             {
                 {"автомобиль", "car"},
@@ -113,4 +111,3 @@ class Program
 
         Console.ReadLine();
     }
-}
