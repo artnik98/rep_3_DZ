@@ -10,7 +10,7 @@
         double.TryParse(Console.ReadLine(), out operand2);
         Console.WriteLine("Введите знак арифметической операции (+, -, *, /):");
         string sign = Console.ReadLine();
-        switch (sign)
+        switch (sign)  
         {
             case "+":
                 Console.WriteLine($"Результат: {operand1} + {operand2} = {operand1 + operand2}");
