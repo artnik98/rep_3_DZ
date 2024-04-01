@@ -1,5 +1,5 @@
 ﻿//Домашняя работа, Задание 1
-task3();
+task2();
 void task1()
 {
     double operand1 = 0;
