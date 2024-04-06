@@ -296,7 +296,7 @@ switch (slovo)
 }
 Console.ReadLine();*/
 
-double sim = double.Parse(Console.ReadLine());
+/*double sim = double.Parse(Console.ReadLine());
 double otvet = sim % 2;
 if (otvet == 0)
 {
@@ -305,5 +305,5 @@ if (otvet == 0)
 else
 {
     Console.WriteLine("не четное число");
-}
+}*/
 
